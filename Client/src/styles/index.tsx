@@ -17,10 +17,15 @@ export const MainHeader = styled.div`
     padding: 0px ${SideLayoutPadding}px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: ${MainHeaderHeight}px;
     box-sizing: border-box;
     .heading {
         font-size: 24px;
+    }
+    .type {
+        font-size: 20px;
+        font-weight: bold;
     }
 `;
 export const LeftLayout = styled.div`

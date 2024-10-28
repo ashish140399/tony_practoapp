@@ -10,7 +10,6 @@ interface Question {
 
 const Dashboard: React.FC = () => {
     const [questions, setQuestions] = useState<Question[]>([]);
-
     return (
         <div>
             <h1>Dashboard</h1>

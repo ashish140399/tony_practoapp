@@ -15,7 +15,8 @@ import {
 import { renderOptions, renderQuestionText } from "./common";
 import { useRef } from "react";
 
-const socket = io("http://localhost:4000");
+// const socket = io("http://localhost:4000");
+const socket = io("http://162.254.38.101:4000");
 const roomId = "abcde";
 const UserInterface: React.FC = () => {
     const [code, setCode] = useState("");

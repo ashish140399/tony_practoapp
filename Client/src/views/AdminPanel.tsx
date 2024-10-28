@@ -34,7 +34,8 @@ import io from "socket.io-client";
 import { renderOptions, renderQuestionText } from "./common";
 import { GB_TEXT_INPUT } from "../const";
 import { useRef } from "react";
-const socket = io("http://localhost:4000");
+// const socket = io("http://localhost:4000");
+const socket = io("http://162.254.38.101:4000");
 const roomId = "abcde";
 const AdminPanel: React.FC = () => {
     // Create a reference to dispose the Fabric.js canvas from outside the component
